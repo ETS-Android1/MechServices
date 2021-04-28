@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.instanceservice">
-    
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".Home"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/logo1"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.InstanceService">
+        <activity android:name=".AddCar"></activity>
+        <activity android:name=".EditProfile" />
+        <activity android:name=".FinalPayment" />
+        <activity android:name=".repair_job" />
+        <activity android:name=".full_body_paint" />
+        <activity android:name=".ac_service" />
+        <activity android:name=".car_spa" />
+        <activity android:name=".Oil_change" />
+        <activity android:name=".bumper_repair" />
+        <activity android:name=".car_polish" />
+        <activity android:name=".Interior_detailing" />
+        <activity android:name=".Dent_Scratch_removal" />
+        <activity android:name=".General_Services" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/Theme.InstanceService.NoActionBar"></activity>
+            android:theme="@style/Theme.InstanceService.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/sign_in"

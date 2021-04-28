@@ -12,32 +12,16 @@
         >
 
         <TextView
-            android:id="@+id/txtProfile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/purple_200"
-            android:fontFamily="sans-serif-condensed"
-            android:gravity="center"
-
-            android:paddingTop="10sp"
-            android:paddingBottom="10sp"
-            android:text="@string/menu_profile"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <TextView
             android:id="@+id/textName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10sp"
             android:layout_weight="1"
-            android:background="#7DC9EC"
             android:gravity="center_vertical"
             android:paddingTop="10sp"
             android:paddingBottom="10sp"
             android:text="@string/name"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textSetName"
@@ -45,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
             android:layout_weight="1"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textEmail"
@@ -53,12 +37,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10sp"
             android:layout_weight="1"
-            android:background="#7DC9EC"
             android:gravity="center_vertical"
             android:paddingTop="10sp"
             android:paddingBottom="10sp"
             android:text="@string/email"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textSetEmail"
@@ -66,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
             android:layout_weight="1"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textMobile"
@@ -74,12 +57,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10sp"
             android:layout_weight="1"
-            android:background="#7DC9EC"
             android:gravity="center_vertical"
             android:paddingTop="10sp"
             android:paddingBottom="10sp"
             android:text="@string/mobile"
-            android:textSize="18sp" />
+            android:textSize="14sp" />
+
+
 
         <TextView
             android:id="@+id/textSetMobile"
@@ -87,8 +71,27 @@
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
             android:layout_weight="1"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
+        <TextView
+            android:id="@+id/textAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:text="@string/address"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textSetAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:textSize="18sp" />
         <Button
             android:id="@+id/btnEditProfile"
             android:layout_width="match_parent"

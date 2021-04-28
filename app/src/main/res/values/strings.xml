@@ -5,7 +5,7 @@
     <string name="email">E-mail</string>
     <string name="Home">Home</string>
     <string name="password">Password</string>
-    <string name="logout">LogOut</string>
+    <string name="logout">Logout</string>
     <string name="text_login_link">Already Have an Account? Login Here</string>
     <string name="text_register_link">Do Not Have an Account? Sign up Here</string>
     <string name="title_activity_home">HomeActivity</string>
@@ -28,4 +28,47 @@
     <string name="menu_log_out">Log Out</string>
     <string name="name">Name</string>
     <string name="mobile">Mobile Number</string>
+    <string name="service_text">Car Services</string>
+
+    <!--   services name section -->
+    <string name="service1">General Services</string>
+    <string name="service2">Dent/Scratch Removal</string>
+    <string name="service3">Interior Detailing</string>
+    <string name="service4">Car Polish</string>
+    <string name="service5">Bumper Repairing</string>
+    <string name="service6">Oil Change Package</string>
+    <string name="service7">Complete Car Spa</string>
+    <string name="service8">AC Service</string>
+    <string name="service9">Full Body Painting</string>
+    <string name="service10">Repair Job</string>
+
+    <!--    for service page default content-->
+    <string name="h1">Go Digital</string>
+    <string name="h2">Pick Up &amp; Drop</string>
+    <string name="h3">Our Promise</string>
+    <string name="h4">Expert Service</string>
+    <string name="d1">Convenient Online Payment Options.</string>
+    <string name="d2">Service from the comfort of your home/office.</string>
+    <string name="d3">100% Satisfaction guaranteed.</string>
+    <string name="d4">Skilled mechanics for your every need.</string>
+    <string name="bks">Book My Service</string>
+
+    <string name="address">Address</string>
+
+    <string name="make_payment">Make Payment</string>
+    <string name="service">service</string>
+    <string name="price">Price :</string>
+    <string name="p1">1299</string>
+    <string name="p2">900</string>
+    <string name="p3">5500</string>
+    <string name="p4">3400</string>
+    <string name="p5">2300</string>
+    <string name="p6">4500</string>
+    <string name="p7">1200</string>
+    <string name="p8">780</string>
+    <string name="p9">5600</string>
+    <string name="p10">500</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Save">Save</string>
 </resources>
