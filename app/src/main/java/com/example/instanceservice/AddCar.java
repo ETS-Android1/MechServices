@@ -1,5 +1,6 @@
 package com.example.instanceservice;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -10,6 +11,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -63,7 +66,17 @@ public class AddCar extends AppCompatActivity {
                 map.put("fuel-type", fuel_type);
 
                 reference = FirebaseDatabase.getInstance().getReference().child("users").child(UserId).child("Cars");
-                reference.push().setValue(map);
+                reference.push().setValue(map).addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Toast.makeText(getApplicationContext(), "Your car added Successfully", Toast.LENGTH_LONG).show();
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(getApplicationContext(), "There is Problem with adding your Car. Please Try Again.", Toast.LENGTH_LONG).show();
+                    }
+                });
             }
         });
     }
