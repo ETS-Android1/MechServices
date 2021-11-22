@@ -5,8 +5,7 @@ Nowadays, there are little things which are not provided through online sources.
 ------------
 screenshots
 ------------
-
-![](images/sign_up.jpg)
-![](images/sign_in.jpg)
+<image src="images/sign_up.jpg" height="630px" width="300px">
+<image src="images/sign_in.jpg" height="630px" width="300px">
 
 
